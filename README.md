@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] What is the purpose of using _sessions_?
 
+Sessions have what is called a session id. When using sessions, you are able to store data for the client against a unique session id. This along with session cookies is a way to manage information behind a wall of auth.
+
 - [ ] What does bcrypt do to help us store passwords in a secure manner.
+
+Hashes them! Hashing passwords is a great way to make password protection better.
 
 - [ ] What does bcrypt do to slow down attackers?
 
+It hashes passwords over a period of time, as well as a certain number of times. 2^Num amount of times.
+
 - [ ] What are the three parts of the JSON Web Token?
+
+The three parts of a JWT are the Header, Payload, and Signature. The signature is how to tell if the JWT has been messed with, as it is unique and contains a secret.
 
 ## Minimum Viable Product
 
