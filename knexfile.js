@@ -14,6 +14,11 @@ module.exports = {
     connection: {
       filename: "./database/test.db3"
     },
-    useNullAsDefault: true
+    useNullAsDefault: true,
+    migrations: {
+      directory: "./database/migrations",
+      tableName: "dbmigrations"
+    }
   }
 };
+// ask Luis about why it needed specified pathway today, and what was throwing an error yesterday
